@@ -1,0 +1,6 @@
+<div #nav (window:resize)="resize($event)" style="border: 1px solid red; width: 100%; margin: 0 auto;">
+  <nav class="naw">
+    <div class="item" #item *ngFor="let tab of arrItem; let i = index;">{{tab.name}}</div>
+  </nav>
+</div>
+

@@ -1,0 +1,11 @@
+.naw {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.naw .item {
+    width: 100px;
+    text-align: center;
+    background: green;
+}
